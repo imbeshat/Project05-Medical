@@ -1,115 +1,119 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body{
-    max-width: 1440px;
-    background-color: #F0F4F5;
-    margin: auto; /* Auto */
-    overflow: hidden;
+body {
+	max-width: 1440px;
+	background-color: #f0f4f5;
+	margin: auto;
+	overflow: hidden;
+	font-family: "Montserrat", sans-serif;
 }
 
-nav{
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
+nav {
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 65px;
 }
-nav ul{
-    display: flex;
-    align-items: center;
+nav ul {
+	display: flex;
+	align-items: center;
 }
-nav ul li{
-    list-style: none;
-    margin-right: 50px;
-    font-weight: 600;
+nav ul li {
+	list-style: none;
+	margin-right: 50px;
+	font-weight: 600;
 }
-nav ul li:first-child{
-    color: green;
+nav ul li:first-child {
+	color: #20bc7e;
 }
 
 /* Hero Section */
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 85vh;
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 85vh;
 }
 
 main section {
-    width: 50%;
+	width: 50%;
 }
 
-.leftsection{
-    margin-left: 5%;
-    position: relative;
+.leftsection {
+	margin-left: 70px;
+	position: relative;
 }
 
-.topangle{
-    width: 25px;
+.topangle {
+	width: 25px;
 }
 
-.leftsection h1{
-    font-size: 70px;
+.leftsection h1 {
+	font-size: 70px;
 }
 
 .leftsection p {
-    color: #808080;
-    font-size: 18px;
-    margin: 20px 0;
+	color: #808080;
+	font-size: 18px;
+	margin: 20px 0;
 }
 
-.bottomangle{
-    width: 25px;
-    position: absolute;
-    right: 25px;
+.bottomangle {
+	width: 25px;
+	position: absolute;
+	right: 35px;
 }
 
-.stethoscope{
-    position: absolute;
-    width: 90%;
-    top: -60px;
-    right: -25px;
-    z-index: -1;
+.stethoscope {
+	position: absolute;
+	width: 38vw;
+	top: -75px;
+	right: -140px;
+	z-index: -1;
 }
 
-.mouse{
-    position: absolute;
-    right: -30px;
-    bottom :0;
-    width: 30px;
+.mouse {
+	position: absolute;
+	right: -30px;
+	bottom: -7px;
+	width: 30px;
 }
 
-.leftsection button{
-    color: white;
-    background-color: green;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 40px;
-    font-size: 25px;
+.leftsection button {
+	color: white;
+	background-color: #20bc7e;
+	padding: 15px 40px;
+	border: none;
+	border-radius: 40px;
+	font-size: 25px;
 }
 
 /*  Right Side */
-.greenbox,  .yellowbox{
-    position: absolute;
-    right: 0;
+.greenbox,
+.orangebox {
+	position: absolute;
+	right: 0;
 }
-.greenbox{
-    width: 35%;
-    bottom: 30px;
+.greenbox {
+	width: 32vw;
+	bottom: 30px;
+	right: 10px;
 }
-.yellowbox{
-    width: 30%;
-    bottom: 50px;
+.orangebox {
+	width: 28vw;
+	bottom: 60px;
 }
 
-
-.doctor{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 90%;
+.doctor {
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	height: 90vh;
 }

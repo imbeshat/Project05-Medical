@@ -1,6 +1,6 @@
 # Project05-Medical
 
 - Created using HTML and CSS
-- Link: https://project05-medical.netlify.app/
+- Deployed Link: https://project05-medical.netlify.app/
 
-![image](https://user-images.githubusercontent.com/48837703/204619258-2528ff0d-7c02-4dc1-a315-087b605acc0b.png)
+![image](https://user-images.githubusercontent.com/48837703/217916436-4332544a-c763-42a1-ae92-987488906724.png)
